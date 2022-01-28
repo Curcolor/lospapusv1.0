@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuerdos</title>
+
+    <script src="https://kit.fontawesome.com/46f1e7af54.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Recuerdos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="memories/recuerdos.html">Recuerdos</a></li>
+                <li><a href="Contact/contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div>
+            <form action="/enviar.html" method="get">
+                <label for="recuerdos">Cosas que recuerdo</label> <span><i class="far fa-comments"></i></span>
+                <input type="text" id="recuerdos" name="recuerdos">
+                <button>Enviar recuerdo</button>
+            </form>
+        </div><br>
+
+        <form>
+            <label for="Boton-inutil">boton que no hace Nada</label>
+            <input id="boton-inutil" type="button" value="No hace Nada">
+        </form>
+        <form>
+            <label for="Boton">boton que no hace Nada</label>
+            <input id="boton" type="submit" value="si hace algo">
+        </form>
+        <form>
+            <label for="hora">cuando fue</label>
+            <input id="hora" type="date">
+            <input type="time">
+        </form>
+        <form>
+            <div>
+                <label>
+                    tel
+                    <input type="tel">
+                </label>
+                
+
+            </div>
+            <div>
+                <label>search</label>
+                <input type="search">
+
+            </div>
+            <div>
+                <label>email</label>
+                <input type="email">
+
+            </div>
+            <div>
+                <label>pass</label>
+                <input type="password">
+
+            </div>
+            <div>
+                <label>url</label>
+                <input type="url">
+            </div>
+            <div>
+                <label>colores</label>
+                <input type="color">
+            </div>
+            <div>
+                <label>number</label>
+                <input type="number">
+            </div>
+            <div>
+                <label>rango</label>
+                <input step="5" type="range" min="1" max="100">
+            </div>
+            <div>
+                <label>pass</label>
+                <input type="reset">
+            </div>
+        </form>
+        <form>
+            <h2>Sexo</h2>
+            <label>masculino</label>
+            <input type="radio" value="masculino" name="gender">
+            <label>femenino</label>
+            <input type="radio" value="femenino" name="gender">
+        </form>
+        <form>
+            <h3>¿Disponible?</h3>
+            <label>Si</label>
+            <input type="checkbox" value="si" name="di">
+            <label>No</label>
+            <input type="checkbox" value="no" name="di">
+        </form>
+        <h2>¿ejercicio?</h2>
+        <select name="exersice">
+            <optgroup label="Nmms">
+                <option value="quizas">la otra semana</option>
+            </optgroup>
+            <option value="Hoy">Hoy</option>
+            <option value="mañana">mañana</option>
+            <option value="otro-dia">otro día</option>
+        </select>
+        <h1>practica</h1>
+        <form>
+            <input type="list" list="pets">
+            <datalist id="pets">
+                <option value="Hoy">Hoy</option>
+                <option value="mañana">mañana</option>
+                <option value="otro-dia">otro día</option>
+            </datalist>
+    </main>
+</body>
+
+</html>

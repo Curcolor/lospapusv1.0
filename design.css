@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #191919;
+}
+header,
+main,
+body,
+section,
+footer,
+aside,
+nav,
+article,
+hgroup {
+  display: block;
+}
+.cuadro {
+  width: 980px;
+  margin: 15px auto;
+  background: #1f3a3d;
+  border: solid 5px rgba(131, 131, 129, 0.514);
+}
+h1 {
+  font-size: 100px;
+  font-family: sans-serif;
+}
+h2 {
+  font-size: 50px;
+}
+.sub {
+  font-size: 30px;
+  font-weight: lighter;
+}
+footer {
+  color: black;
+  background: #c0c0c0;
+}
+#a2 {
+  color: white;
+  background: #0be881;
+}
+#a2 time {
+  color: gray;
+}
+#b2 {
+  background: #05c46b;
+}
+#a3 {
+  color: white;
+  background: #485460;
+}
+#a3 time {
+  color: gray;
+}
+#b3 {
+  background: #1e272e;
+}
+#a4 {
+  color: white;
+  background: #ffc048;
+}
+#a4 time {
+  color: gray;
+}
+#b4 {
+  background: #ffa801;
+}
+#a5 {
+  color: white;
+  background: #ff5e57;
+}
+#a5 time {
+  color: gray;
+}
+#b5 {
+  background: #ff3f34;
+}
+address {
+  background: white;
+  padding: 10px;
+}
+.header h1 {
+  background: #c0392b;
+  border-bottom: solid 5px rgba(117, 117, 117, 0.705);
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-family: "Times New Roman";
+  margin: 0px;
+}
+footer {
+  padding: 20px;
+}
+.menu {
+  text-align: left;
+  background: #2980b9;
+}
+.menu li {
+  text-align: left;
+  list-style: none;
+  padding: 15px;
+  font: bold 15px verdana;
+  display: inline-block;
+  color: white;
+}
+.menu ul {
+  margin: 0px;
+}
+.menu2 li {
+  list-style: none;
+  padding: 15px;
+  font: bold 15px verdana;
+  border-left: 6px solid #2980b9;
+  background-color: lightgrey;
+  color: #191919;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.columna {
+  width: 300px;
+  float: left;
+  margin: 35px 0;
+}
+.seccion {
+  margin: 20px;
+  width: 600px;
+  float: left;
+}
+.seccion article {
+  border: solid 10px rgba(131, 129, 129, 0.514);
+  padding: 20px;
+  margin-bottom: 15px;
+}
+#derechos {
+  color: white;
+  background: rgb(51, 51, 51);
+  clear: both;
+  font-family: sans-serif;
+  padding: 10px;
+}
+img {
+  padding: 10px;
+}
+input {
+  margin: 10px;
+}
+#tes1 {
+  color: white;
+  background: transparent;
+  border-bottom: solid 5px white;
+  border-top: solid 5px white;
+  margin: 20px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: #191919;
+}
+#derechos address {
+  background: rgb(51, 51, 51);
+  font-family: sans-serif;
+  font-style: italic;
+}
+hgroup h2, h3 {
+  margin: 0px;
+}
